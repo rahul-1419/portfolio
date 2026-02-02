@@ -1,0 +1,76 @@
+/* Card container */
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Image style */
+    .project-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    /* Overlay for hover */
+    .project-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Hover effects */
+    .project-card:hover img {
+      transform: scale(1.1);
+    }
+
+    .project-card:hover .project-overlay {
+      opacity: 1;
+    }
+
+    /* Icon style */
+    .project-overlay a {
+      background: white;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .project-overlay a:hover {
+      background: #3b82f6;
+      transform: scale(1.1);
+    }
+
+    .project-overlay a i {
+      color: #1e293b;
+      font-size: 20px;
+    }
+
+    .project-overlay a:hover i {
+      color: white;
+    }
+
+    .project-title {
+      font-weight: 600;
+      margin-top: 12px;
+    }
+
+    .project-desc {
+      color: #6b7280;
+      font-size: 14px;
+    }
