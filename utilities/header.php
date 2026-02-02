@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="asset/css/project.css" type="text/css">
     <link rel="stylesheet" href="asset/css/blog.css" type="text/css">
     <link rel="stylesheet" href="asset/css/conact.css" type="text/css">
+    <!-- <link rel="stylesheet" href="asset/css/about.css" type="text/css"> -->
 </head>
 
 <body>
@@ -57,20 +58,19 @@
                                 <li><a href="project-page.php">Projects</a></li>
                                 <li><a href="blog-page.php">Blog</a></li>
                                 <li><a href="#con">Contact</a></li>
-                                <li><a href="asset/docs/Chaudhari-Rahul.pdf">Resume</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-github"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-download"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="mobile-menu-wrap"></div>   
+            <div id="mobile-menu-wrap"></div>
         </div>
     </header>
     <!-- Header End -->
