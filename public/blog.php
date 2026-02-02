@@ -71,4 +71,16 @@
         color: aliceblue;
         text-decoration: underline;
     }
+
+    .blog-slider {
+        overflow: hidden;
+    }
+
+    .owl-carousel {
+        overflow: hidden !important;
+    }
+
+    .owl-stage-outer {
+        overflow: hidden !important;
+    }
 </style>
