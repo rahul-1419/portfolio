@@ -1,5 +1,5 @@
 <!-- Services Section Begin -->
-<section class="services spad" style="background: #100028; padding: 80px 0;">
+<section class="services spad" style="background: #100028; padding: 80px 0 0 0;">
     <div class="container">
         <div class="row">
             <!-- Left Column - About Me -->

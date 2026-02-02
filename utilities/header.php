@@ -48,6 +48,9 @@
                 <div class="col-lg-2">
                     <div class="header__logo">
                         <a href="./index.php"><span class="DS">Portfolio</span></a>
+                        <div style="color: #00d4ff; font-size: 12px; letter-spacing: 1px; margin-bottom: 5px; font-weight: 600;">
+                            Rahul Chaudhari
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-10">

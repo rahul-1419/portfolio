@@ -43,3 +43,8 @@
     </div>
 </section>
 <!-- Hero Section End -->
+<style>
+    .hero__slider .owl-dots {
+        display: none !important;
+    }
+</style>
